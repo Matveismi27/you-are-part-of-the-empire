@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgb(34, 34, 34);
+    z-index: -1;
+}
+#btn1, #btn2, #btn3{
+    font-size: 18px;
+    position: relative;
+    width: 25vw;
+    height: 7vh;
+    background: rgb(218, 205, 90);
+    margin: 7px;
+}
+#moneycount{
+    font-size: 18px;
+    color: rgb(71, 233, 179);
+}
